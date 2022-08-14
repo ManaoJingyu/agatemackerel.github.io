@@ -1,0 +1,59 @@
+#title in header
+title: "Agate Mackerel ."
+
+#main info
+owner: "blog of agateMackerel"
+email: 
+info: ""
+#description
+desc: ""
+
+#menu
+menu:
+#  Works: /Works
+  主页: /
+  标签: /tags
+  关于: /about
+  归档: /archives
+  
+#index/main page max show posts (in number)
+max_post: 10
+
+# Colors use hex color without #
+# Theme color
+tcolor: 0FA0CE
+
+# Define path to user css
+#(could be also located outside of theme)
+# Relative to source/ directory
+usercss: css/user.css
+
+# Sidebar Avatar
+avatar:
+  # Replace the default image and set the url here.
+  url: /images/avatar.gif   #图片的位置，也可以是http://xxx.com/avatar.png
+  # If true, the avatar will be dispalyed in circle.
+  rounded: true   #头像展示在圈里
+  # If true, the avatar will be rotated with the cursor.
+  rotated: false  #头像随光标旋转
+  
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2022-08-13 16:42   #建站时间
+
+
+# Misc
+#nanobar: /js/nanobar.min.js
+#switch_light: ☀️
+#switch_dark: 🌑
+
+# favicon
+favicon: /images/favicon.png
+
+
+article:
+  thumbnail: true
+
+# DISQUS comments (sign up to Disqus to get disqus_shortname)
+disqus_enabled: false
+disqus_shortname: https-adisaktijrs-github-io
